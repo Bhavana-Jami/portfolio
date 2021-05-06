@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+  background-color:#0a192f;
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  scroll-behavior: smooth;
+}
+/* navbar styling */
+header{
+  /* position: fixed; */
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding:30px 10%;
+}
+
+li,a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  font-size:16px;
+  color:black;
+  text-decoration:none;
+}
+.nav-list li p{
+  cursor:pointer;
+  margin-right: auto;
+  display:flex;
+  justify-content:flex-start;
+  color:#ccd6f6;
+}
+.nav-list{
+  list-style-type:none;
+}
+.nav-list li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-list li a{
+  transition: all 0.3s ease 0s;
+  color:#ccd6f6;
+}
+.nav-list li a:hover{
+  color:#64ffda;
+}
+button{
+   border:none;
+   border-radius:5px;
+   border-color:#64ffda;
+   border-width: 1.2px;
+   border-style: solid;
+   cursor:pointer;
+   color:#64ffda;
+   transition: all 0.3s ease 0s;
+   padding: 9px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight:100;
+   font-size:16px;
+}
+button:hover{
+  background-color:rgba(100,255,218,0.1);
+}
+
+/* sections */
+.s1,.s2,.s3,.s4{
+  min-height:100vh;
+  color:#e6f1ff;
+}
+/* section1 styling */
+.s1 p,h1,h2,#intro,a{
+  color:#e6f1ff;
+  display:flex;
+  justify-content:start;
+  margin-left:15%;
+  padding: 1px;
+  /* flex-direction: column; */
+}
+.s1 h1{
+  font-size:76px;
+}
+.s1 h2{
+  font-size:76px;
+  color:#a8b2d1;
+}
+#intro{
+  color:#a8b2d1;
+  font-size:25px;
+}
+#button_contact{
+  border:none;
+  border-radius:5px;
+  border-color:#64ffda;
+  border-width: 1.2px;
+  border-style: solid;
+  cursor:pointer;
+  color:#64ffda;
+  transition: all 0.3s ease 0s;
+  padding: 9px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  font-size:16px;
+}
+#button_contact:hover{
+  background-color:rgba(100,255,218,0.1);
+}
+
+/* Styling cards */
+.s3{
+  display: grid;
+  grid-template-columns:1fr;
+  grid-column-gap: 10px;
+
+
+}
+.s3 >div{
+  border-style: solid;
+  border-radius:5px;
+  /* background-color:#64ffda; */
+  border-color: #64ffda;
+  height:100vh;
+  width:80%;
+  align-items: center;
+  padding:20px;
+
+  }
